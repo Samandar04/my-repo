@@ -1,0 +1,118 @@
+.container-class, .section .containers {
+  width: 1200px;
+  margin: auto;
+  padding: 70px 0;
+}
+
+.section .containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .containers .navs-wrapper {
+  width: 35%;
+}
+
+.section .containers .navs-wrapper .nav-card {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: black;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+
+.section .containers .navs-wrapper .nav-card:hover {
+  color: #1bac91;
+}
+
+.section .containers .navs-wrapper .nav-card .title-nav {
+  font-weight: bold;
+}
+
+.section .containers .navs-wrapper .active {
+  -webkit-box-shadow: 0 0 10px gray;
+          box-shadow: 0 0 10px gray;
+}
+
+.section .containers .navs-wrapper .active .title-nav {
+  color: #1bac91;
+}
+
+.section .containers .item-content {
+  width: 65%;
+  padding: 50px;
+}
+
+.section .containers .item-content .img-content {
+  width: 100%;
+}
+
+.section .containers .item-content .img-content img {
+  width: 100%;
+}
+
+.bg {
+  background-color: ghostwhite;
+}
+
+.rounded-circle {
+  border: 5px solid white;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-group1 {
+  margin-left: 670px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 15px;
+  padding-top: 10px;
+  width: 180px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.btn3:hover {
+  color: #1bac91;
+}
+
+.btn2 {
+  padding-left: 10px;
+}
+
+.btn2:hover {
+  color: #1bac91;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.d-flex2 {
+  -webkit-box-shadow: 0 0 10px wheat;
+          box-shadow: 0 0 10px wheat;
+}
+
+.box {
+  -webkit-box-shadow: 0 0 10px wheat;
+          box-shadow: 0 0 10px wheat;
+}
+/*# sourceMappingURL=main.css.map */
